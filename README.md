@@ -1,0 +1,1 @@
+Exercices that i did in my class at WEG
