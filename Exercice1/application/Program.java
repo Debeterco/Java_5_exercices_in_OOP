@@ -1,11 +1,3 @@
-/**
- * Returns the sensor name and value of the sensor that you registrated
- * 
- * @author João Vitor Kasteller Debeterco
- * @version Aura + ego
- * 
- */
-
 package application;
 
 import entities.Sensor;

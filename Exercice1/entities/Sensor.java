@@ -5,13 +5,12 @@ package entities;
  *
  * Encapsulates the sensor name and its measured value.
  * Provides accessors and a string representation of the object.
+ * @author João Vitor Kasteller Debeterco
+ * @version Version 1.0
  */
 public class Sensor {
 
-    /** Sensor identifier */
     private String sensorName;
-
-    /** Measured sensor value */
     private Double sensorValue;
 
     /**
@@ -25,20 +24,10 @@ public class Sensor {
         this.sensorValue = sensorValue;
     }
 
-    /**
-     * Returns the sensor name.
-     *
-     * @return sensor name
-     */
     public String getSensorName() {
         return sensorName;
     }
 
-    /**
-     * Updates the sensor name.
-     *
-     * @param name new sensor name
-     */
     public void setSensorName(String sensorName) {
         this.sensorName = sensorName;
     }
