@@ -18,7 +18,7 @@ public class Program {
 
         System.out.println();
         System.out.println("Sensor data: ");
-        sensor.showSensor();
+        System.out.println(sensor);
 
         scan.close();
     }

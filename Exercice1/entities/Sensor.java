@@ -59,8 +59,8 @@ public class Sensor {
     public String toString() {
         return String.format(
             "Sensor[name=%s, value=%.2f units]",
-            sensorName,
-            sensorValue
+            getSensorName(),
+            getSensorValue()
         );
     }
 }
